@@ -12,6 +12,8 @@ Initial MVP release of smartvintaawesomekit — a Smart Python developer toolkit
 - **FastAPI API layer** — Health check endpoint, generic request/response models, three exception handlers (validation, not-found, generic), and a `create_app()` factory
 - **Typer CLI application** — Server management (start with configurable host/port/reload), version display, and `isinstance` guard for direct callback invocation
 - **Packaging** — PEP 621 compliant `pyproject.toml` with `smartvintaawesomekit` CLI entry point
+- **Railway deployment** — `railway.toml` with Railpack builder, ASGI entry point (`app.py`) with health endpoint and exception handlers
+- **Example project** — `test-project/` directory demonstrating the output of the CLI `init` command
 
 ### Tests
 - 105 tests total (91 interface + 14 behavioral) across 4 test modules
